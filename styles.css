@@ -102,16 +102,20 @@ a:hover{
 
 /* modal styling */
 .modal-content{
-	background-color: rgb(29, 19, 9);
-	color: #FDD459;
-	box-shadow: 0px 0px 8px rgba(253, 212, 89,.7);
-	box-shadow: 0px 0px 16px rgba(253, 212, 89,.3);
+	background: linear-gradient(135deg, #1a1207, #3a2c10);
+  color: #fdd459;
+  border: 1px solid rgba(253, 212, 89, 0.5);
+  box-shadow: 0 0 20px rgba(253, 212, 89, 0.6);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
 }
 .close{
 	text-shadow: none;
 }
 .modal-header{
 	border-bottom: 1px solid rgba(233,192,69, 1);
+	color: white;
+	
 }
 .modal-footer{
 	border: none;
@@ -121,7 +125,7 @@ a:hover{
 	color: rgb(29, 19, 9);
 }
 .modal-close:hover{
-	box-shadow: 0px 0px 7px rgba(253, 222, 99,1);
+	box-shadow: 0 0 30px rgba(253, 212, 89, 0.9);
 	color: rgb(29, 19, 9);
 	font-weight: 500;
 }
